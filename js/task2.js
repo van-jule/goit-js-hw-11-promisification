@@ -13,7 +13,7 @@ const toggleUserState = (allUsers, userName) => {
   })
 }
 
-const logger = updatedUsers => console.table(updatedUsers)
+const logger2 = updatedUsers => console.table(updatedUsers)
 
-toggleUserState(users, 'Mango').then(logger)
-toggleUserState(users, 'Lux').then(logger)
+toggleUserState(users, 'Mango').then(logger2)
+toggleUserState(users, 'Lux').then(logger2)
